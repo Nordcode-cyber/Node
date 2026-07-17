@@ -1,0 +1,42 @@
+
+[ "Motor V8 Google Node.js",
+["propiedades",{
+    "definicion":"Cerebro de Javascript",
+    "tipo de licencia":"codigo abierto",
+    "Lenguaje":"Escrito en C++"
+
+}
+
+]
+,["funcionamiento tecnico",{
+    "Compilacion":" JIT (Just in Time)"
+}]
+,["Componente clave",{
+    "Ignition ":"Interprete y Bytecode",
+    "TurboFan":"Optimizador de codigo caliente",
+    "Orinoco":"Recolector de codigo basura"
+}
+],["gestion de memoria Orinoco",{
+    "":"6600CC",
+    "objetivo":"Administra memoria RAM",
+    "ahorro":"liberar datos sin referencia"
+},
+{
+  "pasillo": "A1",
+  "estado": "#FF0000",
+  "apertura":"07:30",
+  "Cierre":"08:25"
+}
+],
+["Referencias",{
+    "Libre":"#25A144",
+    "Ocupado":"#CC6600",
+    "Reservado":"#001B00",
+    "Limpieza":"#3EC0E6",
+    "Mantenimiento":"#A83EE6",
+    "Reparaciones":"#EB7388",
+    "Cerrado":"#E60930"
+
+}
+]
+]
