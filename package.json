@@ -1,5 +1,28 @@
 {
   "dependencies": {
+    "express": "^5.3.0",
     "typescript": "^7.0.2"
-  }
+  },
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Entorno de ejecución de Javascript, podemos ejecutar código de Javascript fuera del navegador, en la linea de comandos,\r de la terminal de nuestro sistema operativo. Este entorno es orientado a eventos asíncronos, un evento asíncrono se ejecuta, independientemente del proceso principal de la aplicacion.Node.js es usado para,\r desarrollo Back-end, desarrollar APIs, además cuenta con un amplio ecosistema de biblioteca y módulos que facilitan el desarrollo de aplicaciones web y de servidor.",
+  "main": "igualdad.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nordcode-cyber/Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nordcode-cyber/Node/issues"
+  },
+  "homepage": "https://github.com/Nordcode-cyber/Node#readme"
 }
