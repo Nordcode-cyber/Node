@@ -1,10 +1,19 @@
-import { hostname, type } from "node:os";
+// Cargar el módulo HTTP
+const http = require("http");
 
-console.log(`¡Hola mundo! Ejecutando en ${hostname} bajo ${type}`);
-import { uptime } from "node:os";
+const hostname = "localhost";
+const port = 7000;
 
-const hours = Math.floor(uptime() / 60 / 60);
-const RTF = new Intl.RelativeTimeFormat("es-ES");
-const time = RTF.format(-hours, "hours");
+// Crear el servidor HTTP
+const server = http.createServer((req, res) => {
+  // Establecer el encabezado HTTP de la respuesta con el estado HTTP y el tipo de contenido
+  res.writeHead(200, { "Content-Type": "text/plain" });
 
-console.log(`¡Hola mundo! Ejecutando en un sistema encendido ${time}`);
+  // Enviar el cuerpo de la respuesta "Hello World"
+  res.end("Hello World from  Node.js\n");
+});
+
+// Muestra un registro cuando el servidor empieza a escuchar
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
